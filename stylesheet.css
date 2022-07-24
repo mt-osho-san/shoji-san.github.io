@@ -1,7 +1,97 @@
-.wrapper { 
-    background-image:url("https://mt-osho-san.github.io/genjiro.jpg");
+body {
+    padding-left:30px;
+    padding-right:30px;
+    width:800px;
 }
 
 .title {
-    color: #02ccba;
+    color: white;
+    padding-left:50px;
 }
+
+.main {
+    text-align:center;
+}
+.header {
+    background-image: url("https://mt-osho-san.github.io/header.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100%;
+    float:left;
+    height:150px;
+    margin-bottom:50px;
+}
+
+.link {
+    color:white;
+    float:right;
+    padding-right:30px;
+}
+
+.container {
+    padding-top:30px;
+    padding-bottom:40px;
+}
+
+.heading {
+    padding-top:00px;
+}
+
+.heading h2 {
+    font-size:25px;
+    line-height:0;
+}
+
+.img-container {
+    Position:relative;
+    height:520px;
+}
+
+.img-block1 {
+    Position:absolute;
+    top:0px;
+    left:250px;
+}
+
+.img-block2 {
+    Position:absolute;
+    top:260px;
+    left:60px;
+}
+
+.img-block1 p {
+    margin:5px;
+}
+
+.img-block2 p {
+    margin:5px;
+}
+
+.img-block3 p {
+    margin:5px;
+}
+
+.img-block3 {
+    Position:absolute;
+    top:260px;
+    left:450px;
+}
+
+.main-img {
+    width:300px;
+    height:200px;
+    vertical-align:top;
+}
+
+.main-text {
+    width:80%;
+    padding-left:90px;
+}
+
+.footer {
+    width:100%;
+    border-top:1px solid grey;
+    text-align:left;
+}
+
