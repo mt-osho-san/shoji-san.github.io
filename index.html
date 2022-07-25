@@ -1,120 +1,117 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utc-8">
-        <title>July</title>
-        <link rel="stylesheet" href="stylesheet.css">
-    </head>
-    <body>
-        <div class="header">
-            <h1 class="title" id="page-top">July</h1>
-        </div>
+body {
+    margin:0;
+    padding:0;
+    color:#1a1a1a;
+    font-family:"Noto Sans JP",sans-serif;
+    background:#f6f5f4
+}
 
-        <div class="index">
-            <h2>Containts</h2>
-            <ul>
-                <li>
-                    <a class="link" href="#kohya-san">宿坊@高野山</a>
-                </li>
-                <li>
-                    <a class="link" href="#camping">キャンプ@赤穂</a>
-                </li>
-                <li>
-                    <a class="link" href="#nagoya">ドライブto名古屋</a>
-                </li>
-            </ul>
-        </index>
 
-        <div class="main">
-            <div class="container">
-                <div class="heading"  id="kohya-san">
-                    <h2>宿坊＠高野山</h2>
-                    <p class="date">date:2022/07/02~03</p>
-                </div>
-                <div class="contents">
-                    <div class="img-container">
-                        <div class="img-block1">
-                            <img class="main-img" src="https://mt-osho-san.github.io/temple-trip1.jpg">
-                            <p>持明院</p>
-                        </div>
-                        <div class="img-block2">
-                            <img class="main-img" src="https://mt-osho-san.github.io/temple-trip2.jpg">
-                            <p>精進料理</p>
-                        </div>
-                        <div class="img-block3">
-                            <img class="main-img" src="https://mt-osho-san.github.io/temple-trip3.jpg">
-                            <p>金剛峯寺</p>
-                        </div>
-                    </div>
-                    <div class="main-text">
-                        <p style="text-align:left">
-                            &emsp;和歌山県にある高野山の宿坊に泊まった．石門を通り，石畳の坂道を進むとそこには閑静な趣を持つ持明院が佇んでいた．部屋に着き宿泊の案内を受けたあと入浴をした．その後，まだ外の明るい17時から精進料理を頂いた．食後には境内の庭園前にある椅子に腰掛け，虫の声に耳を澄ませながら何を考えるでもなく，その場に浸ることができた．
-                        </p>
-                    </div>
-                </div>
-            </dev>
+/*-----------------------
+ヘッダー
+------------------------*/
+.header {
+    width:100%;
+    height:100px;
+    background:#f6f5f4;
+    padding-left:50px;
+    padding-right:50px;
+    box-sizing:border-box;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    position:fixed;
+    top:0;
+}
 
-            <div class="container" id="camping">
-                <div class="heading">
-                    <h2>キャンプ＠赤穂</h2>
-                    <p class="date">date:2022/07/16~17</p>
-                </div>
-                <div class="contents">
-                    <div class="img-container">
-                        <div class="img-block1">
-                            <img class="main-img" src="https://mt-osho-san.github.io/camping1.jpg">
-                            <p>調理中</p>
-                        </div>
-                        <div class="img-block2">
-                            <img class="main-img" src="https://mt-osho-san.github.io/camping2.jpg">
-                            <p>燻製</p>
-                        </div>
-                        <div class="img-block3">
-                            <img class="main-img" src="https://mt-osho-san.github.io/camping3.jpg">
-                            <p>海岸で寝る</p>
-                        </div>
-                    </div>
-                    <div class="main-text">
-                        <p>
-                            赤穂でキャンプしてんけどな，テントわすれてしもたさかいに野宿したんやわ．<br>せやかて夏の夜やから心地よい海風が吹いとるんやわ．<br>ほんまええ夜やったわ．
-                        </p>
-                    </div>
-                </div>
-            </dev>
+.site-title h1 {
+    margin:0px;
+    background-color:#1a1a1a;
+    width:100px;
+    text-align:center;
+}
 
-            <div class="container" id="nagoya">
-                <div class="heading">
-                    <h2>ドライブto名古屋</h2>
-                    <p class="date">date:2022/07/17~18</p>
-                </div>
-                <div class="contents">
-                    <div class="img-container">
-                        <div class="img-block1">
-                            <img class="main-img" src="https://mt-osho-san.github.io/nagoya1.jpg">
-                            <p>名古屋モーニング</p>
-                        </div>
-                        <div class="img-block2">
-                            <img class="main-img" src="https://mt-osho-san.github.io/nagoya2.jpg">
-                            <p>名古屋市科学館</p>
-                        </div>
-                        <div class="img-block3">
-                            <img class="main-img" src="https://mt-osho-san.github.io/nagoya3.jpg">
-                            <p>ひつまぶし</p>
-                        </div>
-                    </div>
-                    <div class="main-text">
-                        <p style="text-align:left">
-                            &emsp;名古屋ドライブとは言いましたが，実はちょっぴり静岡県まで足を踏み入れました．夜の7時半に大阪を出発して，深夜2時半ごろに静岡県は湖西市にある白須賀海岸に到着．月明かりに照らされた夜の浜辺にはただ波の音だけが響き渡り，自然の大きさを感じました．翌日は，プラネタリウムを見る目的で名古屋市科学館に行きましたが3連休ということもあったのか，残念ながらプラネタリウムは満席で見ることが出来ませんでした.それでも常設展はいろいろな体験や展示があり十分に楽しむことができました．名古屋ドライブの締めはおいしいひつまぶしを食べました．大阪を出発してから帰るまでたった26時間でしたが，とても思い出に残る旅になりました．
-                        </p>
-                    </div>
-                </div>
-            </dev>
-            
-            <a class="back-to-top" href="#page-top">Back to Top</a>
-        </div>
+h1 a {
+    color:#fff;
+    font-size:30px;
+    text-decoration: none;
+}
 
-        <div class="footer">
-            <p>E-mail:osho-san@osho.co.jp</p>
-        </div>
-    </body>
-</html>
+ul {
+    list-style:none;
+    display:flex;
+}
+
+ul li a {
+    padding:10px 15px;
+    color:#1a1a1a;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+
+/*---------------------
+main visual
+----------------------*/
+.main-visual img {
+    width:100%;
+    max-width:1200px;
+    height:500px;
+    object-fit:cover;
+}
+
+
+/*-----------------------
+contents
+------------------------*/
+.contents {
+    margin:auto;
+    padding:0;
+    display:flex;
+    align-items:center;
+    width:80%;
+    max-width:960px;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.container {
+    text-align:center;
+    margin-top:-100px;
+    padding-top:100px;
+}
+
+.sub-title {
+    font-size:30px;
+    align-items:center;
+    border-bottom:1px solid #1a1a1a;
+    display:inline-block;
+}
+
+.main-text {
+    text-align:left;
+}
+
+/*-----------------------
+images
+------------------------*/
+.image {
+    width:50%;
+}
+
+.image-block p{
+    margin:0 0 10px 0;
+}
+
+
+/*-----------------------
+footer
+------------------------*/
+.footer p {
+    font-size:10px;
+    color:gray;
+    margin:30px 60px;
+    padding-top:10px;
+    border-top:1px solid gray;
+    text-align:center;
+}
