@@ -1,120 +1,117 @@
 body {
-    padding:0 15px;
-    margin:0 auto;
-    width:800px;
+    margin:0;
+    padding:0;
+    color:#1a1a1a;
+    font-family:"Noto Sans JP",sans-serif;
+    background:#f6f5f4
 }
 
-.title {
-    color: white;
-    padding-left:30px;
-}
 
-.main {
-    text-align:center;
-}
+/*-----------------------
+ヘッダー
+------------------------*/
 .header {
-    background-image: url("https://mt-osho-san.github.io/header.jpg");
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size:cover;
     width:100%;
     height:100px;
-    margin-bottom:50px;
+    background:#f6f5f4;
+    padding-left:50px;
+    padding-right:50px;
+    box-sizing:border-box;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    position:fixed;
+    top:0;
+}
+
+.site-title h1 {
+    margin:0px;
+    background-color:#1a1a1a;
+    width:100px;
+    text-align:center;
+}
+
+h1 a {
+    color:#fff;
+    font-size:30px;
+    text-decoration: none;
 }
 
 ul {
     list-style:none;
-    padding-left:0;
+    display:flex;
 }
 
-li {
-    padding-bottom:10px;
+ul li a {
+    padding:10px 15px;
+    color:#1a1a1a;
+    text-decoration:none;
+    font-weight:bold;
 }
 
-.title {
-    float:left;
+
+/*---------------------
+main visual
+----------------------*/
+.main-visual img {
+    width:100%;
+    max-width:1200px;
+    height:500px;
+    object-fit:cover;
 }
 
-.link {
-    color:black;
-}
 
-.index {
-    background-color:gray;
-    height:170px;
-    text-align:center;
+/*-----------------------
+contents
+------------------------*/
+.contents {
+    margin:auto;
+    padding:0;
+    display:flex;
+    align-items:center;
+    width:80%;
+    max-width:960px;
+    justify-content:center;
+    flex-direction: column;
 }
-
 
 .container {
-    padding-top:30px;
-    padding-bottom:40px;
-}
-
-.heading {
     text-align:center;
+    margin-top:-100px;
+    padding-top:100px;
 }
 
-.heading h2 {
-    font-size:25px;
-    line-height:0;
-}
-
-.img-container {
-    Position:relative;
-    height:520px;
-}
-
-.img-block1 {
-    Position:absolute;
-    top:0px;
-    left:0;
-    right:0;
-    margin:auto;
-}
-
-.img-block2 {
-    Position:absolute;
-    top:260px;
-    left:60px;
-}
-
-.img-block1 p {
-    margin:5px;
-}
-
-.img-block2 p {
-    margin:5px;
-}
-
-.img-block3 p {
-    margin:5px;
-}
-
-.img-block3 {
-    Position:absolute;
-    top:260px;
-    left:450px;
-}
-
-.main-img {
-    width:300px;
-    height:200px;
-    vertical-align:top;
+.sub-title {
+    font-size:30px;
+    align-items:center;
+    border-bottom:1px solid #1a1a1a;
+    display:inline-block;
 }
 
 .main-text {
-    width:80%;
-    padding-left:90px;
-}
-
-.back-to-top {
-    color:blue;
-}
-
-.footer {
-    width:100%;
-    border-top:1px solid grey;
     text-align:left;
 }
 
+/*-----------------------
+images
+------------------------*/
+.image {
+    width:50%;
+}
+
+.image-block p{
+    margin:0 0 10px 0;
+}
+
+
+/*-----------------------
+footer
+------------------------*/
+.footer p {
+    font-size:10px;
+    color:gray;
+    margin:30px 60px;
+    padding-top:10px;
+    border-top:1px solid gray;
+    text-align:center;
+}
